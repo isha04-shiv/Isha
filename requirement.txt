@@ -1,0 +1,26 @@
+
+I mainly downloaded Anaconda navigator which is available in online platform and from I just launch the Spyder(version 3.13) and it simply open.
+For this program of friendly welcome to the user I  used user input which take input from user as a string inside the parenthesis to show a message to the user
+example
+input()
+("enter your name")
+then normally used some variable to stores the string as well as numeric value.
+example 
+old=int(input("How old are you ?")) #for integer input
+name=input("what is your name ?") #for string input
+
+After that I print the values of input and also give a friendly welcome using print() function
+  example
+print(f"welcome {name}!")
+Here I used f-strings or string formation to joining the text  with the user input string & value instead of using "+" and separated by commas (,).
+for example 
+print(f"you are {old} years old and you love {hobby}")
+and run the code
+for single line comment use  #
+ and for multiple line 
+/*-------------
+----------------
+block of statement
+----------------
+*\
+  
